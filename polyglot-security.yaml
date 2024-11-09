@@ -7,7 +7,7 @@ security:
 
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=db_security
+    url: jdbc:sqlserver://localhost:1433;databaseName=db_security;encrypt=true;trustServerCertificate=true
     username: sa
     password: 123456
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
