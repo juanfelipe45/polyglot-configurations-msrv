@@ -18,3 +18,12 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.SQLServerDialect
+
+jwt:
+  token:
+    validity: 18000
+    prefix: Bearer
+  authorities:
+    key: roles
+  header:
+    string: Authorization
